@@ -33,7 +33,17 @@ JAVA SCRIPT CODE
 
 The script switches between `<textarea>` and `<div class="main">` for editing and uses **Font Awesome icons (`<i>` tags)** for buttons.
 __________________________
-STYLE CSS CODE
+This CSS styles the **Notes App** elements:
+
+* **`@import`** → Loads the *Poppins* font from Google Fonts.
+* **`*`** → Applies `box-sizing` and removes outlines for all elements.
+* **`body`** → Sets a blue background, uses the imported font, and arranges notes in a flexible, wrapping layout.
+* **`.add`** → Styles the "Add note" `<button>` (green background, white text, positioned at top-right).
+* **`.note`** → Styles each note `<div>` with white background, shadow, fixed size, and scrollable content.
+* **`.note .tools`** → Styles the tools `<div>` (green background, edit/delete buttons aligned to the right).
+* **`.note textarea`** → Makes the `<textarea>` full-size with no border and the same font as the body.
+* **`.main`** → Adds padding for the main note display area.
+* **`.hidden`** → Hides elements when applied (`display: none`).
 
 
 
