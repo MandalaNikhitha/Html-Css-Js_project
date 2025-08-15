@@ -19,6 +19,26 @@ __________________________________________
 
   * `marked.min.js` helps render markdown text.
   * `script.js` contains the app’s custom JavaScript login
+__________________________________
+
 JAVA SCRIPT CODE
+* This JavaScript code works with the HTML **Notes App** to handle adding, editing, deleting, and saving notes.
+
+* **`<button id="add">`** → Triggers `addNewNote()` when clicked.
+* **`<div class="note">`** → Each note container, created dynamically.
+* **`<div class="tools">`** → Holds the **Edit (`<button class="edit">`)** and **Delete (`<button class="delete">`)** buttons.
+* **`<div class="main">`** → Displays formatted note content (markdown).
+* **`<textarea>`** → Allows typing/editing the note text.
+* **`localStorage`** → Stores notes as JSON so they remain after reloading the page.
+
+The script switches between `<textarea>` and `<div class="main">` for editing and uses **Font Awesome icons (`<i>` tags)** for buttons.
+__________________________
+STYLE CSS CODE
+
+
+
+
+
+
 
 
